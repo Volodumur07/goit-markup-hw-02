@@ -1,3 +1,7 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+}
 .list {
   list-style: none;
 }
@@ -7,9 +11,12 @@
 button {
   cursor: pointer;
 }
+body {
+  font-family: var(--main-font-family);
+}
 /* ===============Header============= */
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -20,7 +27,7 @@ button {
   color: #4d5ae5;
 }
 .logotextstudio {
-  font-family: 'Raleway' sans-serif;
+  font-family: var(--secondary-font-family);
 
   font-weight: 800;
   font-size: 18px;
@@ -32,7 +39,6 @@ button {
   color: #2e2f42;
 }
 .list-item {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,8 +50,6 @@ button {
   color: #404bbf;
 }
 .mailtel {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -58,7 +62,6 @@ button {
 }
 /* =================MAIN HERO============ */
 .main-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
@@ -67,7 +70,6 @@ button {
   color: #ffffff;
 }
 .modal-btn {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -86,7 +88,6 @@ button {
 }
 /*================ SECTION SECOND============ */
 .tittle-section-second {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -97,7 +98,6 @@ button {
   flex-grow: 0;
 }
 .text-section-second {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +109,6 @@ button {
 }
 /* =========SECTION What are we doing (Galery)====== */
 .title-section-galery {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -120,8 +119,6 @@ button {
 }
 /* ========SECTION OUR TEAM ==========*/
 .title-section-team {
-  font-family: 'Roboto';
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,7 +128,6 @@ button {
   color: #2e2f42;
 }
 .title-item-team {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -143,7 +139,6 @@ button {
   flex-grow: 0;
 }
 .text-item-team {
-  ont-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -156,10 +151,51 @@ button {
 }
 /*========== FOOTER ==========*/
 .text-footer {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+/*=============== PAGE PORTFOLIO==================== */
+/* =====SECTION BUTTON===== */
+.btn-page-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #f4f4fd;
+}
+.btn-page-portfolio:hover,
+.btn-page-portfolio:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+/* =======SECTION GALERY====== */
+.title-menu-galery {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.text-menu-galery {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
