@@ -13,6 +13,8 @@ button {
 }
 body {
   font-family: var(--main-font-family);
+  color: #434455;
+  background-color: #ffffff;
 }
 /* ===============Header============= */
 .logo {
@@ -46,8 +48,12 @@ body {
   color: #2e2f42;
 }
 .list-item:focus,
+.list-item:hover,
 .list-item:active {
   color: #404bbf;
+}
+.contact {
+  font-style: normal;
 }
 .mailtel {
   font-style: normal;
@@ -58,19 +64,24 @@ body {
   color: #434455;
 }
 .mailtel:focus,
+.mailtel:hover,
 .mailtel:active {
   color: #404bbf;
 }
 /* =================MAIN HERO============ */
+.hero {
+  background-color: #2e2f42;
+}
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .modal-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,7 +93,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.modal-btn:hover {
+.modal-btn:hover,
+.modal-btn:focus {
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -119,6 +131,9 @@ body {
   color: #2e2f42;
 }
 /* ========SECTION OUR TEAM ==========*/
+.section-team {
+  background-color: #f4f4fd;
+}
 .title-section-team {
   font-weight: 700;
   font-size: 36px;
@@ -127,6 +142,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.item-section-team {
+  background-color: #ffffff;
 }
 .title-item-team {
   font-weight: 500;
@@ -142,7 +160,7 @@ body {
 .text-item-team {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
@@ -151,11 +169,17 @@ body {
   flex-grow: 0;
 }
 /*========== FOOTER ==========*/
+.footer {
+  background-color: #2e2f42;
+}
 .text-footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.logotextstudio-footer {
   color: #f4f4fd;
 }
 /*=============== PAGE PORTFOLIO==================== */
