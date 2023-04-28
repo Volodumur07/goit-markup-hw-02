@@ -185,6 +185,7 @@ body {
 /*=============== PAGE PORTFOLIO==================== */
 /* =====SECTION BUTTON===== */
 .btn-page-portfolio {
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
